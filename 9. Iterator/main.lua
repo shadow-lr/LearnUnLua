@@ -23,3 +23,5 @@ end
 function ipairs (a)
     return iter, a, 0
 end
+
+print("i的值 : "..i)
