@@ -53,7 +53,7 @@ mytable3 =
 )
 
 -- 使用 rawset 函数来更新
--- rawset函数可以忽略元表的__index作用， 只从table 中查找
+-- rawget函数可以忽略元表的__index作用， 只从table 中查找
 mytable3.key1 = 'new value'
 mytable3.key2 = 4
 
